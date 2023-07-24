@@ -1,28 +1,34 @@
 // REQUIRED FEATURES:
 // 1 - Create a variable called `firstName` and assign it the value of your first name
 let firstName = 'T Mark';
-    console.log( 'T Mark' );
+    console.log( 'firstName' );
+
 // 2 - Create a second variable called `lastName` and assign it the value of your last name
 let lastName = ' Schisel';
-    console.log( ' Schisel' );
+    console.log( 'lastName' );
+
 // 3 - Create a third variable called `fullName`, assign it the value of your first and last name
-
 // (remember, you already have variables for this, can you use those?)
-
 // 4 - Console log the value of `fullName`
-let fullName = (firstName + lastName) ;
+let fullName = ( firstName + lastName );
     console.log( fullName );
+
 // 5 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
+let luckyNumber = 8
 
 // 6 - Console log this sentence, adding in the variables you created above: 
 // 'My name is (full name), and I think (lucky number) is a winner!'.
 // Refer back to the videos if you need help with this one.
+    console.log( "My name is", fullName ", and I think ", luckyNumber " is a winner!" );
 
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
+let adventurous = 'true';
 
 // 8 - Create a variable named `food`, and set its value to a string of your favorite food
+let food = 'Chinese food';
 
 // 9 - Create a variable called `pets` and set it to the value of the number of pets you have
+let pets = 1;
 
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
 

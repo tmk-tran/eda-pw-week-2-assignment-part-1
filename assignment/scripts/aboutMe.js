@@ -95,11 +95,17 @@ if ( pets > friendsPets ) {
 
 console.log( mostPets );
 
+
+// start re factor
+
 if ( pets > friendsPets || pets === friendsPets ) {
     mostPets = pets;
 } else {
     mostPets = friendsPets;
 }
+
+// end re factor
+
 
 
 

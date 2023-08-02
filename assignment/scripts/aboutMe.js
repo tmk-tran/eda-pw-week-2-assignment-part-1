@@ -84,13 +84,24 @@ let mostPets;
 
 if ( pets > friendsPets ) {
     mostPets = pets;
+    console.log( 'I have the most pets! I have ', mostPets, ' pets!' );
 } else if ( pets < friendsPets ) {
     mostPets = friendsPets;
-} else {
+    console.log( 'My friend has the most pets! They have ', friendsPets, ' pets!' );
+} else if ( pets === friendsPets ) {
     mostPets = pets;
+    console.log( 'My friend and I have the same amount of pets! We have ', pets, ' pets!' );
 }
 
 console.log( mostPets );
+
+if ( pets > friendsPets || pets === friendsPets ) {
+    mostPets = pets;
+} else {
+    mostPets = friendsPets;
+}
+
+
 
 // 17 - Write a *switch* statement that logs:
 //      "First is the worst" if your lucky number is 1

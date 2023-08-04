@@ -82,18 +82,18 @@ if ( pets < allowedPets ) {
 // console.log `mostPets` after the conditional has run.
 let mostPets;
 
-if ( pets > friendsPets ) {
-    mostPets = pets;
-    console.log( 'I have the most pets! I have ', mostPets, ' pets!' );
-} else if ( pets < friendsPets ) {
-    mostPets = friendsPets;
-    console.log( 'My friend has the most pets! They have ', friendsPets, ' pets!' );
-} else if ( pets === friendsPets ) {
-    mostPets = pets;
-    console.log( 'My friend and I have the same amount of pets! We have ', pets, ' pets!' );
-}
+// if ( pets > friendsPets ) {
+    // mostPets = pets;
+    // console.log( 'I have the most pets! I have ', mostPets, ' pets!' );
+// } else if ( pets < friendsPets ) {
+    // mostPets = friendsPets;
+    // console.log( 'My friend has the most pets! They have ', friendsPets, ' pets!' );
+// } else if ( pets === friendsPets ) {
+    // mostPets = pets;
+    // console.log( 'My friend and I have the same amount of pets! We have ', pets, ' pets!' );
+// }
 
-console.log( mostPets );
+// console.log( 'The most amount of pet is ', mostPets, 'pets!' );
 
 
 // start re factor
@@ -104,6 +104,7 @@ if ( pets > friendsPets || pets === friendsPets ) {
     mostPets = friendsPets;
 }
 
+console.log( 'The most amount of pet is ', mostPets, 'pets!' );
 // end re factor
 
 
